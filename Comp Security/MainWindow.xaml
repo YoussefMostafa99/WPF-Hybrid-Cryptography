@@ -1,0 +1,32 @@
+﻿<Window x:Class="Comp_Security.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Comp_Security"
+        mc:Ignorable="d"
+        Title="Encryption/Decryption using AES-128(CBC)&amp;RSA&amp;SHA-256" Height="600" Width="800" ResizeMode="NoResize" SizeToContent="WidthAndHeight" >
+    <Grid Margin="40,20,40,15">
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="257,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" Height="85" Background="#E6F3FF"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="34,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="85" Width="206" Background="#CDD1CC"/>
+        <Label Content="Text Found in File:" HorizontalAlignment="Left" Margin="305,30,0,0" VerticalAlignment="Top" Width="174" RenderTransformOrigin="0.455,1.368"/>
+        <RadioButton x:Name="radioButton1" Content="Encrypt" HorizontalAlignment="Left" Margin="257,144,0,0" VerticalAlignment="Top" Width="65                      " Checked="radioButton1_Checked"/>
+        <RadioButton x:Name="radioButton2" Content="Decrypt" HorizontalAlignment="Left" Margin="398,144,0,0" VerticalAlignment="Top" Width="64" RenderTransformOrigin="0.523,-0.4"/>
+        <Button x:Name="normalButton1" Content="Process" HorizontalAlignment="Center" Margin="0,168,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.126,0.577" Width="76" Click="Button_Click"/>
+        <Label Content="Encrypted Text:" HorizontalAlignment="Left" Margin="34,201,0,0" VerticalAlignment="Top" Width="120"
+               />
+        <Button x:Name="normalButton2" Content="Browse" HorizontalAlignment="Center" Margin="0,8,0,0" VerticalAlignment="Top" Width="76" Click="normalButton2_Click"/>
+        <Label Content="Choose a Text File." HorizontalAlignment="Left" Margin="308,-18,0,0" VerticalAlignment="Top" Width="110"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="257,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="85" Width="205" Background="#CDD1CC"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="485,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="205" Background="#CDD1CC"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="34,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="200" Width="428" FontSize="7" Background="#C2DDC8"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="485,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="200" Width="205" Background="#CDD1CC"/>
+        <Label Content="Decrypted Text:" HorizontalAlignment="Left" Margin="257,201,0,0" VerticalAlignment="Top" Width="102"/>
+        <Label Content="AES-Key:" HorizontalAlignment="Left" Margin="485,201,0,0" VerticalAlignment="Top"/>
+        <Label Content="RSA Private Key:" HorizontalAlignment="Left" Margin="34,313,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label Content="RSA Private Key Hashed w/SHA-256:" HorizontalAlignment="Left" Margin="485,313,0,0" VerticalAlignment="Top" Width="205"/>
+        <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Margin="485,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="205" Background="#CDD1CC"/>
+        <Label Content="AES-Key Encrypted w/RSA Public Key:" HorizontalAlignment="Left" Margin="485,0,0,0" VerticalAlignment="Center" Width="230"/>
+
+    </Grid>
+</Window>
