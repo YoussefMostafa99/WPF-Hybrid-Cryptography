@@ -21,5 +21,7 @@ executable file.
 
 Link: https://drive.google.com/file/d/1o4NfWFo9ZYYz5qnaCSpGCybjPLFRr5nS/view?usp=sharing
 
+Algorithms used : AES-128(CBC), RSA, SHA-256
+
 ![HybridModel](https://user-images.githubusercontent.com/59689940/119700094-20653a00-be53-11eb-8c16-1e1f09c6779c.png)
 
