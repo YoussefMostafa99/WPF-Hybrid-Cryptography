@@ -3,7 +3,7 @@ Algorithms used : AES-128(CBC), RSA, SHA-256
 
 This application reads any txt file and ecrypts/decrypts the contents of this file.
 
-Desclaimer! Due to time constraints and limited experience in programming(forgot essential OOP stuff that i really needed hehe) and wpf in general. The Signature Part of the Program is still under work and it's not working as inteded. Also currently i can't get the code to stop creating a new key with the symmetric algorithm (AES) when it's decrypting but it does somehow decrypts correctly (key used for encryption does not equal to the key used for decryption or that's what i think is going on i might be wrong about this).
+Desclaimer! Due to time constraints and limited experience in programming(forgot essential OOP stuff that i really needed :)) and wpf in general. The Signature Part of the Program is still under work and it's not working as inteded. Also currently i can't get the code to stop creating a new key with the symmetric algorithm (AES) when it's decrypting but it does somehow decrypt correctly (key used for encryption is not equal to the key used for decryption or that's what i think is going on i might be wrong about this).
 
 I apologise for the spaghetti code. Keep in mind that i am still a beginner.
 
